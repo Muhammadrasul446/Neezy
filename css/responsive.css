@@ -1,0 +1,227 @@
+
+@media screen and (max-width: 810px) {
+	.best {
+		display: none;
+	}
+	
+	.browse_btn {
+		padding: .5rem 1.0rem;
+	}
+	
+	.nav_item a{
+		font: 12px "Century Gothic";
+	}
+	
+	.links {
+		padding-right: 10%;
+	}
+	
+	.set_menu a img {
+		width: 1.2rem;
+		height: 1.2rem;
+	}
+	
+	.order_btn {
+		padding: .5rem 1.75rem;
+		margin-left: 1rem;
+	}
+	
+	.for_us {
+		padding-top: 1rem;
+		font-size: 22px;
+	}
+	
+	.img img {
+		width: 25rem;
+		height: 21rem;
+	}
+	
+	.container {
+		padding-top: 4rem;
+	}
+	
+	.site_name img{
+		width: 11rem;
+		height: 3.5rem;
+	}
+	
+	.bigger {
+		font-size: 18px;
+	}
+	
+	.smaller {
+		font-size: 12px;
+	}
+	
+	.browse_order button{
+		font-size: 12px;
+	}
+	
+	.no_matter p {
+		font-size: 13px;
+	}
+	
+	.logo {
+		padding-right: 10%;
+	}
+	
+	.nav_item {
+		padding: 0 0.3rem;
+	}
+	
+	.logo img {
+		width: 3.8rem;
+		height: 1.6rem;
+	}
+	
+	.line {
+		width: 3rem;
+		height: 2px;
+		margin-top: 1rem;
+	}
+	
+	.main__content {
+		padding: 3rem;
+	}
+	
+	.main__heading {
+		font: 26px "Raleway";
+	}
+	
+	.main__subheading {
+		font: 14px sans-serif;
+	}
+	
+	.price_card_container {
+		padding-top: 3rem;
+	}
+	
+	.price_card {
+		margin: 0 .5rem;
+		width: 14rem;
+	}
+	
+	.package_name {
+		padding: .5rem 0;
+		font: 16px sans-serif;
+	}
+	
+	.price {
+		padding: .5rem 0;
+		font: 48px sans-serif;
+	}
+	
+	.payment {
+		font: 16px sans-serif;
+		padding: .5rem 0;
+	}
+	
+	.blank {
+		padding: 0.1rem 0;
+		font: 16px sans-serif;
+	}
+	
+	.describe {
+		padding: 0.4rem 0;
+		font: 14px sans-serif;
+	}
+	
+
+}
+
+@media screen and (max-width: 650px) {
+	.nav_item, .set_menu, .logo img {
+		margin: 0.3rem;
+	}
+	
+	.for_us {
+		padding-top: 0.5rem;
+		font-size: 18px;
+	}
+	
+	.img img {
+		width: 23rem;
+		height: 19rem;
+	}
+	
+	.container {
+		padding: 2rem 0;
+		display: block;
+		text-align: center;
+	}
+	
+	.site_name img{
+		width: 9rem;
+		height: 3rem;
+	}
+	
+	.bigger {
+		font-size: 16px;
+	}
+	
+	.smaller {
+		font-size: 10px;
+	}
+	
+	.browse_order button{
+		font-size: 10px;
+		margin-top: 1rem;
+	}
+	
+	.no_matter p {
+		font-size: 11px;
+	}
+	
+	.logo {
+		padding-right: 5%;
+	}
+	
+	.main__content {
+		padding: 2rem;
+	}
+	
+	.main__heading {
+		font: 22px "Raleway";
+	}
+	
+	.main__subheading {
+		font: 12px sans-serif;
+	}
+	
+	.price_card_container {
+		padding-top: 1.5rem;
+		display: block;
+	}
+	
+	.price_card {
+		width: 12rem;
+		margin: 2rem auto;
+	}
+	
+	.package_name {
+		padding: .5rem 0;
+		font: 14px sans-serif;
+	}
+	
+	.price {
+		padding: .5rem 0;
+		font: 42px sans-serif;
+	}
+	
+	.payment {
+		font: 14px sans-serif;
+		padding: .5rem 0;
+	}
+	
+	.blank {
+		padding: 0.1rem 0;
+		font: 14px sans-serif;
+	}
+	
+	.describe {
+		padding: 0.4rem 0;
+		font: 12px sans-serif;
+	}
+	
+}
+
