@@ -141,3 +141,8 @@ input:focus + .slider {
 .bd {
 	border-bottom: 1px solid #e8e8e8;
 }
+
+.footer {
+	background-color: #38659e;
+	color: white;
+}

@@ -104,26 +104,31 @@
 	.package_name {
 		padding: .5rem 0;
 		font: 16px sans-serif;
+		font-weight: bolder;
 	}
 	
 	.price {
 		padding: .5rem 0;
 		font: 48px sans-serif;
+		font-weight: bolder;
 	}
 	
 	.payment {
 		font: 16px sans-serif;
 		padding: .5rem 0;
+		font-style: italic;
 	}
 	
 	.blank {
 		padding: 0.1rem 0;
 		font: 16px sans-serif;
+		font-weight: bolder;
 	}
 	
 	.describe {
 		padding: 0.4rem 0;
 		font: 14px sans-serif;
+		font-weight: bolder;
 	}
 	
 
@@ -201,26 +206,31 @@
 	.package_name {
 		padding: .5rem 0;
 		font: 14px sans-serif;
+		font-weight: bolder;
 	}
 	
 	.price {
 		padding: .5rem 0;
 		font: 42px sans-serif;
+		font-weight: bolder;
 	}
 	
 	.payment {
 		font: 14px sans-serif;
 		padding: .5rem 0;
+		font-weight: bolder;
 	}
 	
 	.blank {
 		padding: 0.1rem 0;
 		font: 14px sans-serif;
+		font-weight: bolder;
 	}
 	
 	.describe {
 		padding: 0.4rem 0;
 		font: 12px sans-serif;
+		font-weight: bolder;
 	}
 	
 }

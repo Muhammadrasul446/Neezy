@@ -62,7 +62,7 @@ body, html {
 .menu_container {
 	background-color: #38659e;
 	transform: skewX(-15deg);
-	margin-right: 13px;
+	margin-right: 1rem;
 	padding-right: 5px;
 }
 
@@ -399,4 +399,11 @@ input:checked + .slider:before {
 	padding: 0.7rem 0;
 	font: 16px sans-serif;
 	font-weight: bolder;
+}
+
+.footer {
+	text-align: center;
+	font: 16px "Century Gothic"
+	font-weight: bolder;
+	padding: 2rem 0;
 }
