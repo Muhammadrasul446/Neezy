@@ -1,19 +1,16 @@
 
-let menu = document.getElementById('drop');
-let image = document.getElementById('image');
+let drop_down_menu = document.getElementById('drop');
 
 let open = false;
 
 function toggleMenu() {
     if(open) {
-        menu.style.display = "none";
-        menu.style.opacity = "0";
-        image.style.paddingTop = "5rem";
+        drop_down_menu.style.display = "none";
+        drop_down_menu.style.opacity = "0";
         open = !open;
     } else if (!open) {
-        menu.style.display = "block";
-        menu.style.opacity = "1";
-        image.style.paddingTop = "0";
+        drop_down_menu.style.display = "block";
+        drop_down_menu.style.opacity = "1";
         open = !open;
     }
 }
@@ -40,3 +37,12 @@ if (dark) {
 function reload() {
     location.reload();
 }
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});

@@ -9,36 +9,40 @@
 	<link rel="stylesheet" href="css/index_light.css" id="style">
 </head>
 <body>
-<nav class="nav">
-	<div class="links">
-		<div class="logo"><img src="css/images/logo.png" alt="logo"></div>
-		<div class="nav_item"><a href="#portfolio" class="nav_link">Портфолио</a></div>
-		<div class="nav_item"><a href="#contacts" class="nav_link">Контакты</a></div>
-		<div class="nav_item"><a href="#" class="nav_link">Услуги</a></div>
-	</div>
-	<div class="menu_container">
-		<div class="anti_rotate">
-			<div class="set_menu" onclick="toggleMenu()"><a href="#"><img src="css/images/set.png" alt="altno"></a></div>
-			<div class="set_menu"><a href="#"><img src="css/images/man.png" alt="altno"></a></div>
+<header class="header">	
+	<nav class="nav">
+		<div class="links">
+			<div class="logo"><img src="css/images/logo.png" alt="logo"></div>
+			<div class="nav_item"><a href="#portfolio" class="nav_link">Портфолио</a></div>
+			<div class="nav_item"><a href="#dontknow" class="nav_link">Услуги</a></div>
+			<div class="nav_item"><a href="#contacts" class="nav_link">Контакты</a></div>
 		</div>
-	</div>
-</nav>
-<div class="drop" id="drop">
-	<div class="turn">
-		<div class="txt">RU</div>
-		<label class="switch">
-			<input type="checkbox" id="lang" onclick="changeLang()">
-			<span class="slider round"></span>
-		</label>
-		<div class="txt">UZ</div>
-	</div>
-	<div class="turn">
-		<div class="icon"><img src="css/images/sun.png" alt="sun"></div>
-		<label class="switch">
-			<input type="checkbox" id="mode" onclick="reload()">
-			<span class="slider round"></span>
-		</label>
-		<div class="icon"><img src="css/images/moon.png" alt="moon"></div>
+		<div class="menu_container">
+			<div class="anti_rotate">
+				<div class="set_menu" onclick="toggleMenu()"><a href="#"><img src="css/images/set.png" alt="altno"></a></div>
+				<div class="set_menu"><a href="#"><img src="css/images/man.png" alt="altno"></a></div>
+			</div>
+		</div>
+	</nav>
+</header>
+<div class="full_width">
+	<div class="drop" id="drop">
+		<div class="turn">
+			<div class="txt">RU</div>
+			<label class="switch">
+				<input type="checkbox" id="lang" onclick="changeLang()">
+				<span class="slider round"></span>
+			</label>
+			<div class="txt">UZ</div>
+		</div>
+		<div class="turn">
+			<div class="icon"><img src="css/images/sun.png" alt="sun"></div>
+			<label class="switch">
+				<input type="checkbox" id="mode" onclick="reload()">
+				<span class="slider round"></span>
+			</label>
+			<div class="icon"><img src="css/images/moon.png" alt="moon"></div>
+		</div>
 	</div>
 </div>
 <div class="clear_fix"></div>
@@ -80,7 +84,7 @@
 	</div>
 </div>
 <section class="main__content" id="pricing">
-
+	<a id="dontknow"></a>
 	<h1 class="main__heading">Наши услуги</h1>
 	<div class="line filled" style="margin: 3rem auto"></div>
 	<p class="main__subheading">Выберите тип сайта, и мы сразу с вами свяжемся!</p>

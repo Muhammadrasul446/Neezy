@@ -12,6 +12,12 @@
 body, html {
 	height: 100%;
 	background-color: #fff;
+	animation: opacity 1s;
+}
+
+.header {
+	position: fixed;
+	width: 100%
 }
 
 .nav, .links{
@@ -218,14 +224,15 @@ body, html {
 .drop {
 	float: right;
 	opacity: 0;
-	animation: opacity 1s;
-	margin-top: 1rem;
+	animation: top 1s;
+	top: 5rem;
+	right: 1rem;
 	display: none;
-	padding: 0;
+	position: fixed;
 }
 
-.setup:hover ~ .drop {
-	display: block;
+.full_width {
+	text-align: center;
 }
 
 .txt {
@@ -331,6 +338,21 @@ input:checked + .slider:before {
 @keyframes opacity {
 	from{opacity: 0}
 	to{opacity: 1}
+}
+
+@keyframes top {
+	0%{
+		margin-top: 10rem;
+		margin-right: 0;
+		opacity: 0;
+	}
+	50%{
+		margin-right: 10rem;
+	}
+	100%{
+		opacity: 1;
+		margin-top: 0;
+	}
 }
 
 .line {
