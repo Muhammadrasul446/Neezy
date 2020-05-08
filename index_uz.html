@@ -1,153 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<title>Neezy_v01_beta</title>
-	<link rel="stylesheet" href="css/index_main.css">
-	<link rel="stylesheet" href="css/responsive.css">
-	<link rel="stylesheet" href="css/index_light.css" id="style">
-</head>
-<body>
-	<header class="header">
-		<nav class="nav">
-			<div class="links">
-				<div class="logo"><img src="css/images/logo.png" alt="logo"></div>
-				<div class="nav_item"><a href="#portfolio" class="nav_link">Portfolio</a></div>
-				<div class="nav_item"><a href="#dontknow" class="nav_link">Hizmatlar</a></div>
-				<div class="nav_item"><a href="#contacts" class="nav_link">Bog'lanish</a></div>
-			</div>
-			<div class="menu_container">
-				<div class="anti_rotate">
-					<div class="set_menu" onclick="toggleMenu()"><a href="#"><img src="css/images/set.png" alt="altno"></a></div>
-					<div class="set_menu"><a href="#"><img src="css/images/man.png" alt="altno"></a></div>
-				</div>
-			</div>
-		</nav>
-	</header>
-	<div class="full_width">
-		<div class="drop" id="drop">
-			<div class="turn">
-				<div class="txt">RU</div>
-				<label class="switch">
-					<input type="checkbox" id="lang" checked onclick="changeLang()">
-					<span class="slider round"></span>
-				</label>
-				<div class="txt">UZ</div>
-			</div>
-			<div class="turn">
-				<div class="icon"><img src="css/images/sun.png" alt="sun"></div>
-				<label class="switch">
-					<input type="checkbox" id="mode" onclick="reload()">
-					<span class="slider round"></span>
-				</label>
-				<div class="icon"><img src="css/images/moon.png" alt="moon"></div>
-			</div>
-		</div>
-	</div>
-	<div class="clear_fix"></div>
-	<div class="container">
-		<div class="img" id="image">
-			<img src="css/images/bg.png" alt="kampukter">
-		</div>
-		<div class="buss_med">
-			<p class="bigger"><strong>Neezy-da biznes va ommaviy axborot vositalari uchun <br>ta'sirchan saytga</strong>buyurtma bering.</p>
-			<p class="smaller">eng yaxshi dasturchilar siz bilan ishlashga tayyor</p>
-		</div>
-		<div class="browse_order">
-			<button class="browse_btn">Sharh</button>
-			<button class="order_btn" name="down">Buyurtma berish</button>
-		</div>
-	</div>
-	<div class="portfolio">
-		<a name="portfolio"></a>
-		<h1 class="for_us">Ozingiz uchun</h1>
-		<div class="site_name">
-			<img src="css/images/name.png" alt="Neezy">
-		</div>
-		<div class="no_matter">
-			<p>Nima tayyorlashingizni farqi yoq: <br> biznes uchun sayt, landing-page, internet-magazin yoki yangiliklr portali. <br> Biz bilan siz buni tezroq v sifatliroq amalga oshirasiz</p>
-		</div>
-		<div class="txt_container">
-			<div class="best">
-				<p class="best_p">
-					<div class="color">Eng</div>
-					Yaxshi <br>
-					Dizaynerlar
-				</p>
-			</div>
-			<div class="best">
-				<p class="best_p">
-					<div class="color">Eng</div>
-					Yaxshi <br>
-					Dasturchilar
-				</p>
-			</div>
-		</div>
-	</div>
-	<section class="main__content" id="pricing">
-		<a id="dontknow"></a>
-		<h1 class="main__heading">Bizning hismatlarimiz</h1>
-		<div class="line filled" style="margin: 3rem auto"></div>
-		<p class="main__subheading">Istagan saytingizni tanlang, va biz siz bilan bog'lanamiz!</p>
-
-		<div class="price_card_container">
-			<div class="price_card">
-				<div class="package_name">Landing</div>
-				<div class="price"><sub>$</sub>200</div>
-				<div class="payment">Yakka sahifa</div>
-				<div class="blank"></div>
-				<div class="describe bd">Agar siz o'z kompaniyangiz</div>
-				<div class="describe">haqida ma'lum qilmoqchi,</div>
-				<div class="describe">yolg'iz mahsulot yoki</div>
-				<div class="describe bd">hizmatni reklama qilmoqchi</div>
-				<div class="describe">bolsangiz, bunday sayt</div>
-				<div class="describe">aynan siz uchun!</div>
-			</div>
-			<div class="price_card">
-				<div class="package_name">Korporativ sayt</div>
-				<div class="price"><sub>$</sub>400</div>
-				<div class="payment">Sahifalar soni cheklangan</div>
-				<div class="blank" style="padding: 0.5rem 0">Eng taniqlisi</div>
-				<div class="describe bd">Kompaniyangizning shaxsiy sayti, </div>
-				<div class="describe">Yoki internetdagi rasmiy</div>
-				<div class="describe">korinishi, kompaniyangiz haqida</div>
-				<div class="describe bd">ma'lumot, ish yo'nalishi</div>
-				<div class="describe">mahsulot yoki hizmatlarning</div>
-				<div class="describe">turi bilan.</div>
-			</div>
-			<div class="price_card">
-				<div class="package_name">Internet do'kon</div>
-				<div class="price"><sub>$</sub>800</div>
-				<div class="payment">Sahifalar soni cheklanmagan</div>
-				<div class="blank"></div>
-				<div class="describe bd">Yetkazib berish</div>
-				<div class="describe">va to'lov turini tanlash</div>
-				<div class="describe">imkoniyatiga ega onlayn do'kon</div>
-				<div class="describe bd">Barcha amallar</div>
-				<div class="describe">Yerning istalgan nuqtasidan</div>
-				<div class="describe">amalga oshiriladi</div>
-			</div>
-		</div>
-	</section>
-	<div class="contact">
-		<a name="contacts"></a>
-		<div class="block">
-			<h2 class="header">Biz bilan Bog'laning</h2>
-			<p class="contacts">Telegram kanal: <a href="https://t.me/neezy">t.me/neezy</a></p>
-			<p class="contacts">Telegram: <a href="https://t.me/f_mironshokh">t.me/f_mironshokh</a></p>
-			<p class="contacts">Nomer: <a href="tel:+998913107921">+998 (91) 310-79-21</a></p>
-			<p class="contacts">E-mail: <a href="mail-to:f.mironshokh@gmail.com">f.mironshokh@gmail.com</a></p>
-		</div>
-	</div>
-	<footer class="footer">
-		<p class="footer__paragraph">&copy; Copyright Neezy Inc. 2006-2020</p>
-	</footer>
-	<script src="js/index_script.js"></script>
-	<script>
-		function changeLang() {
-			location.href = "index_ru.html";
-		}
-	</script>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+      <title>Neezy_v01_beta</title>
+      <link rel="stylesheet" href="css/index_main.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/index_light.css" id="style">
+   </head>
+   <body>
+      <header class="header">
+         <nav class="nav">
+            <div class="links">
+               <div class="logo"><img src="css/images/logo.png" alt="logo"></div>
+               <div class="nav_item"><a href="#portfolio" class="nav_link">Portfolio</a></div>
+               <div class="nav_item"><a href="#dontknow" class="nav_link">Hizmatlar</a></div>
+               <div class="nav_item"><a href="#contacts" class="nav_link">Bog'lanish</a></div>
+            </div>
+            <div class="menu_container">
+               <div class="anti_rotate">
+                  <div class="set_menu" onclick="toggleMenu()"><a href="#"><img src="css/images/set.png" alt="altno"></a></div>
+                  <div class="set_menu"><a href="#"><img src="css/images/man.png" alt="altno"></a></div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <div class="full_width">
+         <div class="drop" id="drop">
+            <div class="turn">
+               <div class="txt">RU</div>
+               <label class="switch">
+               <input type="checkbox" id="lang" checked onclick="changeLang()">
+               <span class="slider round"></span>
+               </label>
+               <div class="txt">UZ</div>
+            </div>
+            <div class="turn">
+               <div class="icon"><img src="css/images/sun.png" alt="sun"></div>
+               <label class="switch">
+               <input type="checkbox" id="mode" onclick="reload()">
+               <span class="slider round"></span>
+               </label>
+               <div class="icon"><img src="css/images/moon.png" alt="moon"></div>
+            </div>
+         </div>
+      </div>
+      <div class="clear_fix"></div>
+      <div class="container">
+         <div class="img" id="image">
+            <img src="css/images/bg.png" alt="kampukter">
+         </div>
+         <div class="buss_med">
+            <p class="bigger"><strong>Neezy-da biznes va ommaviy axborot vositalari uchun <br>ta'sirchan saytga</strong>buyurtma bering.</p>
+            <p class="smaller">eng yaxshi dasturchilar siz bilan ishlashga tayyor</p>
+         </div>
+         <div class="browse_order">
+            <button class="browse_btn">Sharh</button>
+            <button class="order_btn" name="down">Buyurtma berish</button>
+         </div>
+      </div>
+      <div class="portfolio">
+         <a name="portfolio"></a>
+         <h1 class="for_us">Ozingiz uchun</h1>
+         <div class="site_name">
+            <img src="css/images/name.png" alt="Neezy">
+         </div>
+         <div class="no_matter">
+            <p>Nima tayyorlashingizni farqi yoq: <br> biznes uchun sayt, landing-page, internet-magazin yoki yangiliklr portali. <br> Biz bilan siz buni tezroq v sifatliroq amalga oshirasiz</p>
+         </div>
+         <div class="txt_container">
+            <div class="best">
+               <p class="best_p">
+               <div class="color">Eng</div>
+               Yaxshi <br>
+               Dizaynerlar
+               </p>
+            </div>
+            <div class="best">
+               <p class="best_p">
+               <div class="color">Eng</div>
+               Yaxshi <br>
+               Dasturchilar
+               </p>
+            </div>
+         </div>
+      </div>
+      <section class="main__content" id="pricing">
+         <a id="dontknow"></a>
+         <h1 class="main__heading">Bizning hismatlarimiz</h1>
+         <div class="line filled" style="margin: 3rem auto"></div>
+         <p class="main__subheading">Istagan saytingizni tanlang, va biz siz bilan bog'lanamiz!</p>
+         <div class="price_card_container">
+            <div class="price_card">
+               <div class="package_name">Landing</div>
+               <div class="price"><sub>$</sub>200</div>
+               <div class="payment">Yakka sahifa</div>
+               <div class="blank"></div>
+               <div class="describe bd">Agar siz o'z kompaniyangiz</div>
+               <div class="describe">haqida ma'lum qilmoqchi,</div>
+               <div class="describe">yolg'iz mahsulot yoki</div>
+               <div class="describe bd">hizmatni reklama qilmoqchi</div>
+               <div class="describe">bolsangiz, bunday sayt</div>
+               <div class="describe">aynan siz uchun!</div>
+            </div>
+            <div class="price_card">
+               <div class="package_name">Korporativ sayt</div>
+               <div class="price"><sub>$</sub>400</div>
+               <div class="payment">Sahifalar soni cheklangan</div>
+               <div class="blank" style="padding: 0.5rem 0">Eng taniqlisi</div>
+               <div class="describe bd">Kompaniyangizning shaxsiy sayti, </div>
+               <div class="describe">Yoki internetdagi rasmiy</div>
+               <div class="describe">korinishi, kompaniyangiz haqida</div>
+               <div class="describe bd">ma'lumot, ish yo'nalishi</div>
+               <div class="describe">mahsulot yoki hizmatlarning</div>
+               <div class="describe">turi bilan.</div>
+            </div>
+            <div class="price_card">
+               <div class="package_name">Internet do'kon</div>
+               <div class="price"><sub>$</sub>800</div>
+               <div class="payment">Sahifalar soni cheklanmagan</div>
+               <div class="blank"></div>
+               <div class="describe bd">Yetkazib berish</div>
+               <div class="describe">va to'lov turini tanlash</div>
+               <div class="describe">imkoniyatiga ega onlayn do'kon</div>
+               <div class="describe bd">Barcha amallar</div>
+               <div class="describe">Yerning istalgan nuqtasidan</div>
+               <div class="describe">amalga oshiriladi</div>
+            </div>
+         </div>
+      </section>
+      <div class="contact">
+         <a name="contacts"></a>
+         <div class="block">
+            <h2 class="header">Biz bilan Bog'laning</h2>
+            <p class="contacts">Telegram kanal: <a href="https://t.me/neezy">t.me/neezy</a></p>
+            <p class="contacts">Telegram: <a href="https://t.me/f_mironshokh">t.me/f_mironshokh</a></p>
+            <p class="contacts">Nomer: <a href="tel:+998913107921">+998 (91) 310-79-21</a></p>
+            <p class="contacts">E-mail: <a href="mail-to:f.mironshokh@gmail.com">f.mironshokh@gmail.com</a></p>
+         </div>
+      </div>
+      <footer class="footer">
+         <p class="footer__paragraph">&copy; Copyright Neezy Inc. 2006-2020</p>
+      </footer>
+      <script src="js/index_script.js"></script>
+      <script>
+         function changeLang() {
+         	location.href = "index_ru.html";
+         }
+      </script>
+   </body>
 </html>
+
