@@ -13,7 +13,14 @@ body, html {
 
 .nav_link {
 	color: black;
+	border-bottom: 2px solid transparent;
 }
+
+.nav_link:hover {
+	border-bottom: 2px solid #fff;
+	color: white;
+}
+
 
 .smaller {
 	color: #555;
