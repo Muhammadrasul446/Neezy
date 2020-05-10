@@ -57,6 +57,10 @@
 		font-size: 12px;
 	}
 	
+	.no_matter {
+		padding-bottom: 0;
+	}
+
 	.no_matter p {
 		font-size: 13px;
 	}
@@ -130,7 +134,18 @@
 		font: 14px sans-serif;
 		font-weight: bolder;
 	}
-	
+
+	.contact {
+		padding-top: 35%;
+	}
+
+	.contacts {
+		font-size: 16px;
+	}
+
+	.block {
+		padding: .7rem .7rem 2.1rem;
+	}
 
 }
 
@@ -232,6 +247,9 @@
 		font: 12px sans-serif;
 		font-weight: bolder;
 	}
-	
+
+	.contact {
+		padding-top: 40%;
+	}
 }
 

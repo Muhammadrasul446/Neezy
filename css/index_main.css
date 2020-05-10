@@ -15,7 +15,13 @@ body, html {
 	animation: opacity 1s;
 }
 
+.page_cell {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
 .header {
+	background-color: #5987c5;
 	position: fixed;
 	width: 100%
 }
@@ -29,10 +35,9 @@ body, html {
 }
 
 .nav {
-	background-color: #5987c5;
+	margin: 0 auto;
 	justify-content: space-between;
 	text-align: center;
-	width: 100%;
 }
 
 .logo {
@@ -47,6 +52,10 @@ body, html {
 .links {
 	justify-content: space-between;
 	padding-right: 20%;
+}
+
+.links #top {
+	cursor: pointer;
 }
 
 .nav_item {
@@ -119,6 +128,23 @@ body, html {
 	color: #555;
 }
 
+.order_btn, .browse_btn {
+	padding: .7rem 1.5rem;
+	font: 14px "Century Gothic";
+	cursor: pointer;
+	transition: ease .5s
+}
+
+.browse_btn {
+	background-color: #fff;
+	border: 2px solid #333;
+}
+
+.order_btn {
+	background-color: #5987c5;
+	border: 2px solid transparent;
+}
+
 .browse_btn:hover {
 	background-color: #5987c5;
 	color: white;
@@ -131,61 +157,33 @@ body, html {
 	border: 2px solid #333;
 }
 
-.browse_btn {
-	background-color: #fff;
-	border: 2px solid #333;
-	padding: .7rem 1.5rem;
-	font: 14px "Century Gothic";
-	cursor: pointer;
-	transition: ease .5s
-}
-
-.order_btn {
-	background-color: #5987c5;
-	border: 2px solid #0000;
-	color: white;
-	padding: .7rem 2.5rem;
-	margin-left: 3rem;
-	font: 14px "Century Gothic";
-	cursor: pointer;
-	transition: ease .5s
+.portfolio, .contact {
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .portfolio {
 	background-image: url("images/bg2.png");
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
-.contact {
-	background-image: url("images/bg3.png");
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top: 17.1rem;
+.for_us, .site_name, .no_matter, .full_width {
+	text-align: center;
 }
 
 .for_us {
-	text-align: center;
 	font: 30px "Century Gothic";
 	padding-top: 2rem;
 	padding-right: 1rem;
 }
 
 .site_name {
-	text-align: center;
 	padding-top: 10px;
 }
 
 .site_name img {
 	width: 15rem;
 	height: 5rem;
-}
-
-.no_matter {
-	text-align: center;
 }
 
 .no_matter p {
@@ -218,16 +216,11 @@ body, html {
 
 .drop {
 	display: none;
-	float: right;
 	opacity: 0;
 	animation: top 1s;
 	top: 5rem;
 	right: 1rem;
 	position: fixed;
-}
-
-.full_width {
-	text-align: center;
 }
 
 .txt {
@@ -321,8 +314,9 @@ input:checked + .slider:before {
 	width: 55%;
 }
 
-.header {
-	text-align: center;
+.contact {
+	background-image: url("images/bg3.png");
+	padding-top: 21%
 }
 
 .contacts a{
@@ -332,6 +326,10 @@ input:checked + .slider:before {
 
 .contacts a:hover {
 	text-decoration: underline;
+}
+
+.contacts {
+	font: 18px "Century Gothic"
 }
 
 @keyframes opacity {
