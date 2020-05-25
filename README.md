@@ -6,6 +6,10 @@
 
 > `git clone https://github.com/Muhammadrasul446/Neezy`
 
+### See demo:
+
+[Neezy](https://muhammadrasul446.github.io/Neezy/)
+
 ### My Contacts
 
 [Twitter](https://twitter.com/A_M_R_4_4_6)
