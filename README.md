@@ -6,9 +6,7 @@
 
 > `git clone https://github.com/Muhammadrasul446/Neezy`
 
-### See demo:
-
-[Neezy](https://muhammadrasul446.github.io/Neezy/)
+See demo [here](https://muhammadrasul446.github.io/Neezy/).
 
 ### My Contacts
 
