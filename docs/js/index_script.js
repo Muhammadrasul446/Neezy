@@ -15,7 +15,7 @@ function toggleMenu() {
 		drop_down_menu.style.display = "none";
 		drop_down_menu.style.opacity = "0";
 		open = !open;
-	} else if (!open) {
+	} else {
 		drop_down_menu.style.display = "block";
 		drop_down_menu.style.opacity = "1";
 		open = !open;
